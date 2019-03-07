@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: white url("../img/520WestFloorplan.jpeg") no-repeat fixed center;
+    background-size: cover;
+}
+
+.quad {
+    width: 50%;
+    height: 50vh;
+}
+
+.quad img {
+    width: 95%;
+    height: 95%;
+    padding: 1%;
+}
+
+/*
+#q1 {
+    background-color: red;
+}
+
+#q2 {
+    background-color: green;
+}
+
+#q3 {
+    background-color: blue;
+}
+
+#q4 {
+    background-color: yellow;
+} */
+
+#q1-top, #q2-top, #q3-top, #q4-top {
+    display: none;
+}
